@@ -1,0 +1,17 @@
+{
+    "builds":[
+        {
+            "src":"app.js",
+            "use":"@now/node-serve"
+        }
+    ],
+    "routes":[
+        { 
+            "src":"/.*",
+            "dest":"/"
+        }
+    ]
+}
+
+
+
